@@ -446,15 +446,5 @@ private void finalizeTransac()
             finalizeTransac();
         }
 
-        private void button1_Click_2(object sender, EventArgs e)
-        {
-            finalizeTransac();
-            GetData();
-        }
-
-        private void CashierTab_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
