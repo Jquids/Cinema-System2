@@ -124,7 +124,6 @@ namespace Cinema_System
 
         private void button2_Click_1(object sender, EventArgs e)
         {
-            this.Hide();
             EditTab edittab = new EditTab();
 
             // Show the EditMovieTab form

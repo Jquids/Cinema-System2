@@ -28,7 +28,6 @@ namespace Cinema_System
                 if (connection.State != System.Data.ConnectionState.Open)
                 {
                     connection.Open();
-                    MessageBox.Show("Connection Successful!", "Connection", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             catch (Exception ex)

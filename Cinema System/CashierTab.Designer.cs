@@ -98,9 +98,9 @@
             // 
             ButtMove2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             ButtMove2.BackgroundImageLayout = ImageLayout.Stretch;
-            ButtMove2.Location = new Point(12, 294);
+            ButtMove2.Location = new Point(12, 320);
             ButtMove2.Name = "ButtMove2";
-            ButtMove2.Size = new Size(177, 276);
+            ButtMove2.Size = new Size(177, 258);
             ButtMove2.TabIndex = 2;
             ButtMove2.UseVisualStyleBackColor = true;
             ButtMove2.Click += ButtMove2_Click;
@@ -110,7 +110,7 @@
             ButtMove1.BackgroundImageLayout = ImageLayout.Stretch;
             ButtMove1.Location = new Point(12, 12);
             ButtMove1.Name = "ButtMove1";
-            ButtMove1.Size = new Size(177, 276);
+            ButtMove1.Size = new Size(177, 258);
             ButtMove1.TabIndex = 1;
             ButtMove1.UseVisualStyleBackColor = true;
             ButtMove1.Click += ButtMove1_Click;
@@ -119,9 +119,9 @@
             // 
             ButtMove4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             ButtMove4.BackgroundImageLayout = ImageLayout.Stretch;
-            ButtMove4.Location = new Point(195, 294);
+            ButtMove4.Location = new Point(195, 320);
             ButtMove4.Name = "ButtMove4";
-            ButtMove4.Size = new Size(177, 276);
+            ButtMove4.Size = new Size(177, 258);
             ButtMove4.TabIndex = 4;
             ButtMove4.UseVisualStyleBackColor = true;
             ButtMove4.Click += ButtMove4_Click;
@@ -131,7 +131,7 @@
             ButtMove3.BackgroundImageLayout = ImageLayout.Stretch;
             ButtMove3.Location = new Point(195, 12);
             ButtMove3.Name = "ButtMove3";
-            ButtMove3.Size = new Size(177, 276);
+            ButtMove3.Size = new Size(177, 258);
             ButtMove3.TabIndex = 3;
             ButtMove3.UseVisualStyleBackColor = true;
             ButtMove3.Click += ButtMove3_Click;
@@ -140,9 +140,9 @@
             // 
             ButtMove6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             ButtMove6.BackgroundImageLayout = ImageLayout.Stretch;
-            ButtMove6.Location = new Point(378, 294);
+            ButtMove6.Location = new Point(378, 320);
             ButtMove6.Name = "ButtMove6";
-            ButtMove6.Size = new Size(177, 278);
+            ButtMove6.Size = new Size(177, 258);
             ButtMove6.TabIndex = 6;
             ButtMove6.UseVisualStyleBackColor = true;
             ButtMove6.Click += ButtMove6_Click;
@@ -152,7 +152,7 @@
             ButtMove5.BackgroundImageLayout = ImageLayout.Stretch;
             ButtMove5.Location = new Point(378, 12);
             ButtMove5.Name = "ButtMove5";
-            ButtMove5.Size = new Size(177, 276);
+            ButtMove5.Size = new Size(177, 258);
             ButtMove5.TabIndex = 5;
             ButtMove5.UseVisualStyleBackColor = true;
             ButtMove5.Click += ButtMove5_Click;
@@ -161,9 +161,9 @@
             // 
             ButtMove8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             ButtMove8.BackgroundImageLayout = ImageLayout.Stretch;
-            ButtMove8.Location = new Point(561, 296);
+            ButtMove8.Location = new Point(561, 320);
             ButtMove8.Name = "ButtMove8";
-            ButtMove8.Size = new Size(177, 276);
+            ButtMove8.Size = new Size(177, 258);
             ButtMove8.TabIndex = 8;
             ButtMove8.UseVisualStyleBackColor = true;
             ButtMove8.Click += ButtMove8_Click;
@@ -173,7 +173,7 @@
             ButtMove7.BackgroundImageLayout = ImageLayout.Stretch;
             ButtMove7.Location = new Point(561, 12);
             ButtMove7.Name = "ButtMove7";
-            ButtMove7.Size = new Size(177, 276);
+            ButtMove7.Size = new Size(177, 258);
             ButtMove7.TabIndex = 7;
             ButtMove7.UseVisualStyleBackColor = true;
             ButtMove7.Click += ButtMove7_Click;
@@ -183,7 +183,7 @@
             pictureBox1.BackColor = SystemColors.ActiveCaptionText;
             pictureBox1.Location = new Point(744, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(268, 560);
+            pictureBox1.Size = new Size(268, 561);
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
             // 
@@ -557,7 +557,7 @@
             // priceDisplay1
             // 
             priceDisplay1.AutoSize = true;
-            priceDisplay1.Location = new Point(72, 346);
+            priceDisplay1.Location = new Point(90, 276);
             priceDisplay1.Name = "priceDisplay1";
             priceDisplay1.Size = new Size(0, 15);
             priceDisplay1.TabIndex = 51;
@@ -565,7 +565,7 @@
             // priceDisplay2
             // 
             priceDisplay2.AutoSize = true;
-            priceDisplay2.Location = new Point(72, 399);
+            priceDisplay2.Location = new Point(90, 302);
             priceDisplay2.Name = "priceDisplay2";
             priceDisplay2.Size = new Size(0, 15);
             priceDisplay2.TabIndex = 52;
@@ -573,7 +573,7 @@
             // priceDisplay4
             // 
             priceDisplay4.AutoSize = true;
-            priceDisplay4.Location = new Point(266, 399);
+            priceDisplay4.Location = new Point(279, 302);
             priceDisplay4.Name = "priceDisplay4";
             priceDisplay4.Size = new Size(0, 15);
             priceDisplay4.TabIndex = 54;
@@ -581,7 +581,7 @@
             // priceDisplay3
             // 
             priceDisplay3.AutoSize = true;
-            priceDisplay3.Location = new Point(266, 346);
+            priceDisplay3.Location = new Point(278, 276);
             priceDisplay3.Name = "priceDisplay3";
             priceDisplay3.Size = new Size(0, 15);
             priceDisplay3.TabIndex = 53;
@@ -589,7 +589,7 @@
             // priceDisplay6
             // 
             priceDisplay6.AutoSize = true;
-            priceDisplay6.Location = new Point(444, 396);
+            priceDisplay6.Location = new Point(462, 299);
             priceDisplay6.Name = "priceDisplay6";
             priceDisplay6.Size = new Size(0, 15);
             priceDisplay6.TabIndex = 56;
@@ -597,7 +597,7 @@
             // priceDisplay5
             // 
             priceDisplay5.AutoSize = true;
-            priceDisplay5.Location = new Point(444, 343);
+            priceDisplay5.Location = new Point(462, 273);
             priceDisplay5.Name = "priceDisplay5";
             priceDisplay5.Size = new Size(0, 15);
             priceDisplay5.TabIndex = 55;
@@ -605,7 +605,7 @@
             // priceDisplay8
             // 
             priceDisplay8.AutoSize = true;
-            priceDisplay8.Location = new Point(634, 399);
+            priceDisplay8.Location = new Point(652, 302);
             priceDisplay8.Name = "priceDisplay8";
             priceDisplay8.Size = new Size(0, 15);
             priceDisplay8.TabIndex = 58;
@@ -613,7 +613,7 @@
             // priceDisplay7
             // 
             priceDisplay7.AutoSize = true;
-            priceDisplay7.Location = new Point(634, 346);
+            priceDisplay7.Location = new Point(652, 276);
             priceDisplay7.Name = "priceDisplay7";
             priceDisplay7.Size = new Size(0, 15);
             priceDisplay7.TabIndex = 57;
@@ -622,7 +622,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1024, 582);
+            ClientSize = new Size(1024, 585);
             Controls.Add(priceDisplay8);
             Controls.Add(priceDisplay7);
             Controls.Add(priceDisplay6);

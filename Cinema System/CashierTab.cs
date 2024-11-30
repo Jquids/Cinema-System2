@@ -169,11 +169,19 @@ namespace Cinema_System
 
                     while (reader.Read())
                     {
-                        // Handle the seat data if necessary
-                        int seatnum = Convert.ToInt32(reader["seatNo"]);
-                        int seatLet = Convert.ToInt32(reader["seatLet"]);
-                        Seat[seatLet, seatnum].Enabled = false;
-                        Seat[seatLet, seatnum].BackColor = SystemColors.ActiveCaptionText;
+                        DateTime seatdate = Convert.ToDateTime(reader["dateScreen"]);
+
+                        // Compare only the date part of seatdate with the current date
+                        if (seatdate.Date == DateTime.Now.Date)
+                        {
+                            // Handle seat data if necessary
+                            int seatnum = Convert.ToInt32(reader["seatNo"]);
+                            int seatLet = Convert.ToInt32(reader["seatLet"]);
+
+                            // Disable the seat and change its color
+                            Seat[seatLet, seatnum].Enabled = false;
+                            Seat[seatLet, seatnum].BackColor = SystemColors.ActiveCaptionText;
+                        }
                     }
                     reader.Close();
                 }
@@ -188,7 +196,6 @@ namespace Cinema_System
             }
         }
 
-        // Sample validation method (make sure the table name is valid and safe)
         private bool IsValidRoomName(string roomName)
         {
             string[] validRooms = { "Room1", "Room2", "Room3", "Room4", "Room5", "Room6", "Room7", "Room8" };
@@ -331,13 +338,7 @@ private void finalizeTransac()
             }
         }
 
-        private static void selected(Control a)
-        {
-            if (a.BackColor == SystemColors.Control)
-                a.BackColor = SystemColors.ActiveCaption;
-            else
-                a.BackColor = SystemColors.Control;
-        }
+
         public CashierTab()
         {
             InitializeComponent();
